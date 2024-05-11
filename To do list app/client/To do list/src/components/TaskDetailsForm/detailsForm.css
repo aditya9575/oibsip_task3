@@ -1,9 +1,9 @@
 .form-container {
   display: flex;
   justify-content: space-between;
-  width: 90%; /* Adjust as needed */
+  width: 90%;
   margin: 0 auto;
-  height: 70vh; /* 70% of viewport height */
+  height: 70vh; 
 }
 
 button{
@@ -12,7 +12,7 @@ button{
 
 .form-box {
   width: 30%;
-  background-color: #f0f0f0; /* Light gray background for form box */
+  background-color: #f0f0f0; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -32,7 +32,7 @@ button{
 }
 
 .task-form-btn {
-  background-color: #4CAF50; /* Dark green background for form button */
+  background-color: #4CAF50; 
   color: white;
   border: none;
   padding: 10px 20px;
@@ -41,12 +41,12 @@ button{
 }
 
 .task-form-btn:hover {
-  background-color: #45a049; /* Dark green background for form button on hover */
+  background-color: #45a049; 
 }
 
 .task-list {
   width: 30%;
-  background-color: #f2f7ff; /* Bluish background for task list */
+  background-color: #f2f7ff; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -54,24 +54,23 @@ button{
 
 .completed-tasks {
   width: 30%;
-  background-color: #adad69; /* Light yellow background for completed tasks */
+  background-color: #adad69; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Media queries for responsive design */
 @media screen and (max-width: 768px) {
   .form-container {
     flex-direction: column;
     align-items: center;
-    height: auto; /* Adjust height to auto for smaller screens */
+    height: auto; 
   }
   
   .form-box,
   .task-list,
   .completed-tasks {
-    width: 100%; /* Adjust width to full width for smaller screens */
-    max-width: none; /* Remove max-width for smaller screens */
+    width: 100%; 
+    max-width: none; 
   }
 }
